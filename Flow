@@ -2,3 +2,5 @@ cp Vagrantfile in the recpective directory
 make direcotry for cookbooks, init.sh will do that
 copy default.rb to the desired recipe locaiton
 vagrant provision will check for any updates or decripencies
+we are using both shell and chef as provisioners...
+access localhost:8080, since this port is listening for nginx services
